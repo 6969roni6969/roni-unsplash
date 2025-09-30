@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+aside{
+    width: fit-content;
+    height: 100dvh;
+    padding-top: 0.3dvh;
+    padding-left: 0.3dvw;
+    padding-right: 0.3dvw;
+    img{
+        width: 2dvw;
+        padding-left: 0.3dvw;
+    }
+    #i1{
+        padding-top: 3dvh;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    font-size: 0.8dvw;
+}
+main{
+    border-left: 1px;
+    border-style: solid;
+    a{
+        text-decoration: none;
+    }
+    font-size: 1dvw;
+}
+#nav{
+    width: auto;
+    padding-top: 1.2dvh;
+    padding-bottom: 1dvh;
+    padding-left: 0.8dvw;
+    padding-right: 0.8dvw;
+    a{
+        padding-left: 2.5dvw;
+        color: black;
+    }
+    #login{
+        padding-right: 2.5dvw;
+    }
+    input{
+        border-style: solid;
+        border-radius: 1.3dvh;
+        font-size: 1dvw;
+        padding-bottom: 0.3dvh;
+        padding-top: 0.3dvh;
+        padding-left: 0.5dvw;
+    }
+    button{
+        border-radius: 0.5dvh;
+        width: 4dvw;
+        font-size: 1dvw;
+    }
+}
+#main{
+    padding: 5dvw;
+    font-size: 2dvh;
+    h2{
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+        font-weight: lighter;
+    }
+    #facebook{
+        text-align: center;
+        padding-top: 1dvh;
+        margin-top: 5dvh;
+        margin-left: 30dvw;
+        margin-right: 30dvw;
+        border-style: solid;
+        border-width: 0.2dvh;
+        background-color: #f3faff;
+        border-radius: 1dvh;
+        color: blue;
+        button{
+            margin-top: 1dvh;
+            margin-bottom: 2dvh;
+            width: 20dvw;
+            height: 4dvh;
+            text-align: center;
+            background-color: blue;
+            border-radius: 1dvh;
+        }
+        a{
+            font-weight: bold;
+            color: white;
+            font-size: large;
+        }
+    }
+    #form{
+        text-align:left;
+        margin-left: 30dvw;
+        margin-right: 30dvw;
+        input{
+            width:25dvw;
+            height: 3.5dvh;
+            margin-bottom: 3dvh;
+            border-radius: 0.5dvh;
+        }
+        button{
+            width: 25.3dvw;
+            height: 4dvh;
+            text-align: center;
+            background-color: black;
+            border-radius: 1dvh;
+        }
+        a{
+            font-weight: bold;
+            color: white;
+            font-size: large;
+        }
+    }
+    #signup{
+        text-align: center;
+        margin-top: 5dvh;
+        margin-left: 25dvw;
+        margin-right: 25dvw;
+        border-style: solid;
+        border-width: 0.2dvh;
+        height: 8dvh;
+        padding-top: 5dvh;
+        a{
+            text-decoration: underline;
+        }
+    }
+}
